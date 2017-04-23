@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Quote Machine</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <!-- animation files -->
+    <link rel="stylesheet" href="assets/animate.css" />
+    <script type="text/javascript" src="assets/jquery.animatecss.min.js"></script>
+
+</header>
+
+<body>
+
+    <div class="text-center">
+        <div>
+            <h2 id="header">Random Quote Machine</h2>
+        </div>
+
+        <div class="container-fluid">
+            <!-- If Needed Left and Right Padding in 'md' and 'lg' screen means use container class -->
+            <div class="row">
+                <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
+                    <div id='quote-panel' class="offset-col-3 col-6">
+                        <div>
+                            <h4 id="quote">
+                            </h4>
+                            <h6 id="author">
+                            </h6>
+                        </div>
+                        <button id="request-button" type="button btn-default" class="btn btn-default">New Quote</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- scripts -->
+<script type="text/javascript" src="scripts/animations.js"></script>
+<script type="text/javascript" src="scripts/helper.js"></script>
+<script type="text/javascript" src="scripts/script.js"></script>
+
+</html>

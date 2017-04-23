@@ -1,0 +1,39 @@
+@import url(//fonts.googleapis.com/css?family=Pacifico);
+
+body{
+  background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#282828;
+  background-size:16px 16px;
+}
+
+#header {
+  margin-top: 50px;
+  font: 400 50px/1.5 'Pacifico', Helvetica, sans-serif;
+  color: #70A4F1;
+  margin-bottom: 80px;
+}
+
+@media screen and (min-width: 480px) {
+  #header {
+    margin-top: 80px;
+    font: 400 100px/1.5 'Pacifico', Helvetica, sans-serif;
+    color: #70A4F1;
+    margin-bottom: 100px;
+  }
+}
+
+#quote-panel {
+  padding: 15px;
+  min-height 100px;
+  border:1px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#request-button {
+  margin-top: 10px;
+}
